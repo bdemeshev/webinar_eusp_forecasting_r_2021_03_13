@@ -10,7 +10,7 @@ library(stringr)
 library(skimr)
 library(lubridate)
 
-d = import("~/Downloads/data(2).xls", skip = 2)
+d = import("~/Downloads/data.xls", skip = 2)
 glimpse(d)
 
 colnames(d)[1:3] = c("region", "unit", "period")
